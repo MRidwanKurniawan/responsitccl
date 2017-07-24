@@ -31,6 +31,7 @@ memberikan nama images: nginxresponsi
 
 **Hasil jika dijalankan:**
 ![Output Docker](image/outputnginx.png)
+
 pada output ini url/ip *192.168.43.91* merupakan ip bridge virtualbox yang digunakan sebagai host Docker
 
 **Prestasi:**
