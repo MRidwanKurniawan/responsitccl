@@ -22,8 +22,9 @@ berikut config Dockerfile yang digunakan:
  4. perintah CMD untuk menjalankan nginx 
 
 **Perintah Build Image:**   *docker build -t nginxresponsi .*
-![How to Build Images](image/buildnginx.png)
 memberikan nama images: nginxresponsi
+![How to Build Images](image/buildnginx.png)
+
 
 **Perintah menjalankannya:** *docker run -it --rm -p 80:80 nginxresponsi*
 ![How to Run Images](image/runnginx.png)
