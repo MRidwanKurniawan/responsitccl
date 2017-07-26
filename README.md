@@ -22,14 +22,16 @@ berikut config Dockerfile yang digunakan:
  4. perintah CMD untuk menjalankan nginx 
 
 **Perintah Build Image:**   *docker build -t nginxresponsi .*
-![How to Build Images](image/buildnginx.png)
 memberikan nama images: nginxresponsi
+![How to Build Images](image/buildnginx.png)
+
 
 **Perintah menjalankannya:** *docker run -it --rm -p 80:80 nginxresponsi*
 ![How to Run Images](image/runnginx.png)
 
 **Hasil jika dijalankan:**
 ![Output Docker](image/outputnginx.png)
+
 pada output ini url/ip *192.168.43.91* merupakan ip bridge virtualbox yang digunakan sebagai host Docker
 
 **Docker Hub Images**
